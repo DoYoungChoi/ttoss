@@ -55,4 +55,7 @@ abstract class AbstractThemeColors {
   Color get unreadColor => Color.fromARGB(255, 48, 48, 48);
 
   Color get lessImportant => AppColors.grey;
+
+  Color get plus => Color.fromARGB(255, 200, 75, 75);
+  Color get minus => Color.fromARGB(255, 75, 104, 200);
 }
