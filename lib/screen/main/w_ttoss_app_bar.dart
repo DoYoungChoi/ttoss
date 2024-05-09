@@ -4,6 +4,7 @@ import 'package:fast_app_base/common/widget/w_height_and_width.dart';
 import 'package:flutter/material.dart';
 
 class TtossAppBar extends StatefulWidget {
+  static const double appBarHeight = 60;
   const TtossAppBar({super.key});
 
   @override
@@ -20,7 +21,7 @@ class _TtossAppBarState extends State<TtossAppBar> {
       color: context.appColors.appBarBackground,
       child: Row(
         children: [
-          width16,
+          width8,
           Image.asset('$basePath/icon/toss.png', height: 40),
           emptyExpanded,
           Image.asset('$basePath/icon/map_point.png', height: 30),
@@ -50,7 +51,7 @@ class _TtossAppBarState extends State<TtossAppBar> {
               ],
             ),
           ),
-          width16,
+          width8,
         ],
       ),
     );

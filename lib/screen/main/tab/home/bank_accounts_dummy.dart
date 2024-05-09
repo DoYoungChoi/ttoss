@@ -16,8 +16,13 @@ final List<BankAccount> bankAccounts = [
   bankAccountShinhan1,
   bankAccountShinhan2,
   bankAccountShinhan3,
+  bankAccountShinhan2,
+  bankAccountShinhan3,
   bankAccountTtoss,
-  bankAccountKakao
+  bankAccountTtoss,
+  bankAccountKakao,
+  bankAccountKakao,
+  bankAccountKakao,
 ];
 
 main() {
